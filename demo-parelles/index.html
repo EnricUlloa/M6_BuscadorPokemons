@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buscador de Pokémons</title>
+    <link href="style/style.css" rel="stylesheet">
+</head>
+<body>
+    <h1 class="titulo">Pokémon API</h1>
+    
+    <div class="num">
+        <label for="contador-pokemon">Numero de resultats</label>
+        <select id="contador-pokemon">
+            <option value="10" selected>10</option>
+            <option value="20">20</option>
+            <option value="50">50</option>
+        </select>
+    </div>
+    <!--<h4 class="num">Numero de resultats</h4>-->
+
+    <div id="container-pokemons" class="container"></div>
+
+    <div class="buttons">
+        <button id="prev-btn" disabled>Previous</button>
+        <button id="next-btn">Next</button>
+    </div>
+
+    <script src="script/index.js"></script>
+</body>
+</html>
+
+
+
